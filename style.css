@@ -1,0 +1,161 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+h2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    color: white;
+    padding: 8px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+
+.sub-header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    color: white;
+}
+
+
+.sub-header-img {
+    border: none;
+    width: 400px;
+    height: 200px;
+    padding: 8px;
+}
+
+
+.random-information-container {
+
+}
+
+.info-container-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 18px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.subtext-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: white;
+}
+
+.subtext {
+
+}
+
+button {
+    background-color: #3882F6;
+    width: 100px;
+    color: white;
+}
+
+.button-containter {
+    border: white solid;
+}
+
+
+.information-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 32px;
+}
+
+.information-and-info {
+
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    border: solid #3882F6;
+}
+
+.img-and-info {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    padding: 16px;
+}
+
+.quote-card {
+    width: 500px;
+    width: 700px;
+    flex: 1 1 auto;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: right;
+    font-style:initial;
+}
+
+.action-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    margin: auto;
+    padding: 32px;
+    width: 1000px;
+}
+

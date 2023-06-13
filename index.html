@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-logo">
+            WillyCinco
+        </div>
+        <div class="header-links">
+            <a href="#">Header Link One</a>
+            <a href="#">Header Link Two</a>
+            <a href="#">Header Link Three</a>
+        </div>
+    </div>
+    <a href="rps.html">Rock Paper Scissors</a>
+    <!--<a href="whileiwasout.html">While I Was Out</a>-->
+    <button onclick="randomFoodChoice(veggieChoices)">Click for random veggie</button>
+    <p id="veggieResult"></p>
+    <button onclick="randomFoodChoice(starchChoices)">Click for random starch</button>
+    <p id="starchResult"></p>
+
+    
+
+    <!--<button>Click for pretty circles</button>
+    <canvas></canvas>-->
+    <div class="sub-header">
+        <div class="info-container">
+            <h1 style="margin-bottom: 0px"><strong>The Time is Now:</strong></h1>
+            <p id="date-time" style="margin-top: 0px;"></p>
+            
+            <label for="theme">Select theme:</label>
+            <select id="theme">
+                <option value="white">White</option>
+                <option value="black">Black</option>
+            </select>
+
+            <div class="subtext-header">
+                The WillyCinco Site!
+            </div>
+            <div class="subtext">
+                Welcome to my landing page. I am a travel nurse with fun adventures I'd love to share through pictures and stories.
+            </div>
+            <button class="sign-up-button">
+                Sign up
+            </button>
+        </div>
+        <img class="sub-header-img" src="images/first-snowboard1.jpg">
+
+    </div>
+    
+    <div class="random-information-container">
+        
+        <div class="info-container-header">
+            The Dog and the Willow Tree
+        </div>
+        
+        <div class="information-container">
+            <div class="img-and-info">
+                <img src="images/willowdog.jpg">
+                The Dog and the Willow Tree
+            </div>
+            <div class="img-and-info">
+                <img src="images/box-ball1.jpg">
+                Roxie with her ball
+            </div>
+            <div class="img-and-info">
+                <img src="images/box-ball2.jpg">
+                Roxie with her ball again
+            </div>
+            <div class="img-and-info">
+                <img src="images/ruby-hand.jpg">
+                Ruby being dangerously cute
+            </div>
+        </div>
+    </div>
+    
+    <label for="horse-duck"><strong>Choose from the list which you would rather fight.</strong></label>
+        <select id="mySelect">
+            <option value="">--Chose Wisely--</option>
+            <option value="horse-sized duck">horse-sized duck</option>
+            <option value="one-hundred horses">100 duck-sized horses</option>
+            <option value="peace">Peace</option>
+        </select>
+    <p id="display"></p>
+
+    <div class="quote-container">
+        <div class="quote-card">
+            "Just a couple more steps."
+            <div class="quote-author">
+                ~ WillyCinco
+            </div>
+        </div>
+    </div>
+
+    <div class="action-container">
+        <div class="action-container-text">
+            <h1>Call to action, it's time!</h1>
+            <h2>When you are ready, click that button to the right to begin the countdown!</h2>
+        </div>
+        <div class="button-container">
+        <button id="btn">click to begin countdown</button>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        Copyright © WillyCinco.com 2023
+    </div>
+
+    <script src="index.js"></script>
+
+    
+</body>
+</html>
